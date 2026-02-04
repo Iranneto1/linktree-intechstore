@@ -78,17 +78,17 @@ export function ProductCards() {
           </motion.div>
 
           <div className="grid md:grid-cols-3 gap-6">
-            <motion.div variants={cardVariants} whileHover="hover" className="h-52 bg-blue-600 rounded-[32px] p-6 text-white flex flex-col justify-center items-center text-center shadow-lg">
+            <motion.div variants={cardVariants} whileHover="hover" className="h-73 bg-blue-600 rounded-[32px] p-6 text-white flex flex-col justify-center items-center text-center shadow-lg">
               <h2 className="text-4xl font-black italic">500+</h2>
               <p className="opacity-80 font-bold uppercase text-[10px] tracking-tighter">Clientes Satisfeitos</p>
               <div className="flex gap-1 mt-2 text-yellow-400">
                 {[...Array(5)].map((_, i) => <Star key={i} size={12} fill="currentColor"/>)}
               </div>
             </motion.div>
-            <motion.div variants={cardVariants} whileHover="hover" className="h-52 bg-white/40 backdrop-blur-md rounded-[32px] overflow-hidden border border-white/20 relative group">
+            <motion.div variants={cardVariants} whileHover="hover" className="h-73 bg-white/40 backdrop-blur-md rounded-[32px] overflow-hidden border border-white/20 relative group">
                 <ImageWithFallback src="https://res.cloudinary.com/dqkpkmicx/image/upload/v1770151200/banner_1_intech_j9s5mv.png" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
             </motion.div>
-            <motion.div variants={cardVariants} whileHover="hover" className="h-52 bg-white/40 backdrop-blur-md rounded-[32px] overflow-hidden border border-white/20 relative group">
+            <motion.div variants={cardVariants} whileHover="hover" className="h-73 bg-white/40 backdrop-blur-md rounded-[32px] overflow-hidden border border-white/20 relative group">
                 <ImageWithFallback src="https://res.cloudinary.com/dqkpkmicx/image/upload/v1770151211/banner_2_in_tech_aarwbr.png" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
             </motion.div>
           </div>
