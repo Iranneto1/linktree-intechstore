@@ -2,7 +2,6 @@ import { motion } from 'framer-motion';
 import { ArrowUpRight, Star, Instagram, MessageCircle, Mail } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 
-// Usamos 'any' para evitar que o TS valide a estrutura interna das variantes
 const cardVariants: any = {
   hidden: { opacity: 0, y: 20 },
   visible: { 
@@ -53,7 +52,7 @@ export function ProductCards() {
                 </h1>
                 <p className="text-xl mb-8 text-slate-600 font-medium">Qualidade que você merece!</p>
                 <motion.a
-                  href="https://google.com"
+                  href="https://vitrine-virtual-psi.vercel.app/produtos/"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.05 }}
