@@ -52,7 +52,7 @@ export function ProductCards() {
                 </h1>
                 <p className="text-xl mb-8 text-slate-600 font-medium">Qualidade que você merece!</p>
                 <motion.a
-                  href="https://vitrine-virtual-psi.vercel.app/produtos/"
+                  href="https://vitrine-virtual-psi.vercel.app"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.05 }}
