@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/produtos/(.*)",
+      "destination": "https://vitrine-virtual-psi.vercel.app/produtos/$1"
+    },
+    {
+      "source": "/produtos",
+      "destination": "https://vitrine-virtual-psi.vercel.app/produtos/"
+    }
+  ]
+}
