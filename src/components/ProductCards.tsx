@@ -41,7 +41,7 @@ export function ProductCards() {
     {
       id: "email",
       icon: <Mail size={24} />,
-      link: "mailto:iran-netonobrega@hotmail.com",
+      link: "mailto:irannetotechstore@gmail.com",
       color: "hover:text-blue-500",
     },
   ];
