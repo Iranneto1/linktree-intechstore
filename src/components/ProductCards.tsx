@@ -77,7 +77,7 @@ export function ProductCards() {
                   Qualidade que você merece!
                 </p>
                 <motion.a
-                  href="https://vitrine-virtual-psi.vercel.app"
+                  href="https://www.intechstorepb.com.br/vitrine"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.05 }}
