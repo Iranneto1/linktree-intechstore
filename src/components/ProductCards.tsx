@@ -211,6 +211,13 @@ export function ProductCards() {
           <ImageWithFallback src="https://res.cloudinary.com/dpnlypvpc/image/upload/v1770373771/designpremium_cgr0ez.png" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
         </motion.div>
       </div>
+      {/* --- O RODAPÉ ADICIONADO AQUI --- */}
+      <footer className="text-center text-sm text-slate-500 mt-12 pb-8">
+        &copy; {new Date().getFullYear()} IN Tech Store. Todos os direitos reservados.
+        <br />
+        CNPJ 65.077.899/0001-96
+      </footer>
+      
     </div>
   );
 }
