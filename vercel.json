@@ -1,12 +1,12 @@
 {
   "rewrites": [
     {
-      "source": "/vitrine",
-      "destination": "https://vitrine-virtual-psi.vercel.app/"
-    },
-    {
       "source": "/vitrine/:path*",
       "destination": "https://vitrine-virtual-psi.vercel.app/:path*"
+    },
+    {
+      "source": "/vitrine",
+      "destination": "https://vitrine-virtual-psi.vercel.app"
     }
   ]
 }
