@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/vitrine",
-      "destination": "https://vitrine-virtual-psi.vercel.app/vitrine/"
+      "destination": "https://vitrine-virtual-psi.vercel.app/"
     },
     {
       "source": "/vitrine/:path*",
-      "destination": "https://vitrine-virtual-psi.vercel.app/vitrine/:path*"
+      "destination": "https://vitrine-virtual-psi.vercel.app/:path*"
     }
   ]
 }
