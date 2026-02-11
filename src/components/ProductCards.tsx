@@ -55,6 +55,7 @@ export function ProductCards() {
       >
         {/* COLUNA DA ESQUERDA (PRINCIPAL) */}
         <div className="lg:col-span-2 space-y-6">
+          
           {/* CARD HERO PRINCIPAL */}
           <motion.div
             variants={cardVariants}
@@ -105,9 +106,32 @@ export function ProductCards() {
             </div>
           </motion.div>
 
-          {/* GRID DE CARDS */}
+          {/* GRID DE CARDS SECUNDÁRIOS */}
           <div className="grid md:grid-cols-3 gap-6">
-            {/* CARD 1 */}
+            
+            {/* CARD 1: VÍDEO IPHONE 16 (AUTOPLAY & LOOP) */}
+            <motion.div
+              variants={cardVariants}
+              whileHover="hover"
+              className="h-72 rounded-[32px] overflow-hidden border border-white/20 relative group shadow-lg"
+            >
+              <video
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-500"
+              >
+                <source src="https://res.cloudinary.com/dpnlypvpc/video/upload/v1770817760/video_iphone16_qb39le.mp4" type="video/mp4" />
+                Seu navegador não suporta vídeos.
+              </video>
+              <div className="absolute bottom-4 left-6 z-10">
+                <p className="text-white text-[10px] font-bold uppercase tracking-widest opacity-70">Novidade</p>
+                <h3 className="text-white font-black italic text-xl">iPhone 16 Pro</h3>
+              </div>
+            </motion.div>
+
+            {/* CARD 2: STATUS CLIENTES */}
             <motion.div
               variants={cardVariants}
               whileHover="hover"
@@ -124,7 +148,7 @@ export function ProductCards() {
               </div>
             </motion.div>
 
-            {/* CARD 2 */}
+            {/* CARD 3: PROTEÇÃO E ESTILO */}
             <motion.div
               variants={cardVariants}
               whileHover="hover"
@@ -136,7 +160,7 @@ export function ProductCards() {
               />
             </motion.div>
 
-            {/* CARD 3 */}
+            {/* CARD 4: CONECTIVIDADE */}
             <motion.div
               variants={cardVariants}
               whileHover="hover"
@@ -148,7 +172,7 @@ export function ProductCards() {
               />
             </motion.div>
 
-            {/* CARD 4 */}
+            {/* CARD 5: LIBERDADE SEM FIOS */}
             <motion.div
               variants={cardVariants}
               whileHover="hover"
@@ -160,7 +184,7 @@ export function ProductCards() {
               />
             </motion.div>
 
-            {/* CARD 5 */}
+            {/* CARD 6: DESIGN PREMIUM */}
             <motion.div
               variants={cardVariants}
               whileHover="hover"
