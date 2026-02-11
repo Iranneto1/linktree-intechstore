@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/vitrine/:match*",
+      "destination": "https://vitrine-virtual-psi.vercel.app/vitrine/:match*"
+    }
+  ]
+}
